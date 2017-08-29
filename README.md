@@ -1,24 +1,14 @@
 # ReduxSimpleStarter
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Branch to store Redux APP(https://www.udemy.com/react-redux/)
 
-### Getting Started
+#Content
 
-There are two methods for getting started with this repo.
+The app will show a list of books and the current details of selected book
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Exercise to practice react's states and how to connect it with Redux 
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
+#Start app
 ```
 > npm install
 > npm start
