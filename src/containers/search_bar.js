@@ -28,6 +28,6 @@ export default class Searchar extends Component{
 	onFormSubmit(event){
 		event.preventDefault();
 
-		//We need to go and fech weather data
+		//We need to go and fetch weather data
 	}
 }
