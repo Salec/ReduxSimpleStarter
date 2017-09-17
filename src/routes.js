@@ -8,8 +8,6 @@ import  PostIndex  from './components/post_index';
 
 export default(
 <Route path='/' component={App}>
-<IndexRoute component={PostIndex}/>	
-
-
+	<IndexRoute component={PostIndex}/>	
 </Route>
 );
