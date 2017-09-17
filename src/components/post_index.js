@@ -7,7 +7,7 @@ class PostIndex extends Component{
 	render(){
 		return (<div>List of posts</div>
 			);
-	}
+	};
 
 	componentWillMount(){
 		this.props.fetchPost();
