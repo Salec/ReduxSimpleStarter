@@ -1,17 +1,22 @@
 /**
  * Created by Fernando on 3/10/2017.
  */
-import React,{Component} from 'react';
+import React,{Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {fetchOne , deletePost} from '../actions/index'
 import {Link} from 'react-router';
 
 class PostShow extends Component{
+    static contextTypes = {
+        router: PropTypes.object
+    };
     componentWillMount(){
         this.props.fetchOne(this.props.params.id);
     }
     onDeleteClick(){
-        this.props.deletePost(this.props.params.id)
+        this.props.deletePost(this.props.params.id).then(()=>{
+            this.context.router.push('/');
+        });
     }
     render(){
         const {post} = this.props;
